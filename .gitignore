@@ -1,0 +1,6 @@
+include
+lib
+bin
+pip-selfcheck.json
+__pycache__
+*.pyc
