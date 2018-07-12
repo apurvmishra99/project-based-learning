@@ -27,14 +27,14 @@ marvin_quotes = \
 " I have a million ideas, but, they all point to certain death. ",
 ]
 
-reddit = praw.Reddit(client_id= 'VgSmXEQw217mCQ',
-                    client_secret= 'NzILPGFnOfRZRJ23FKoIOX8_M10',
-                    password= 'dps12345@1',
-                    username= 'gen2irony',
-                    user_agent= 'PyBot 0.1'
+reddit = praw.Reddit(client_id= '',
+                    client_secret= '',
+                    password= '',
+                    username= '',
+                    user_agent= ''
                     )
                     
-subreddit = reddit.subreddit("pythonforengineers")
+subreddit = reddit.subreddit("")
 
 for comment in subreddit.stream.comments():
     if re.search("Marvin Help", comment.body, re.IGNORECASE):
