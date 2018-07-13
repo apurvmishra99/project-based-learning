@@ -4,3 +4,4 @@ bin
 pip-selfcheck.json
 __pycache__
 *.pyc
+t_bot_config.py
