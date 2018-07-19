@@ -1,0 +1,9 @@
+Flask==1.0
+Jinja2==2.10
+MarkupSafe==1.0
+Werkzeug==0.13
+click==6.7
+gunicorn==19.9.0
+itsdangerous==0.24
+requests==2.19.1
+wsgiref==0.1.2
